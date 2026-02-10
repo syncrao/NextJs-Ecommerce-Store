@@ -1,2 +1,41 @@
 @import "tailwindcss";
 
+/* 🌍 Base layer: global variables + body */
+@layer base {
+  :root {
+    --bg-app: linear-gradient(135deg, #ffffff, #f5f6f8, #eff6ff);
+    --bg-hero: linear-gradient(90deg, #ffffff, #eff6ff, #fce7f3);
+    --bg-section: linear-gradient(180deg, #f5f6f8, #ffffff);
+
+    --btn-primary: linear-gradient(90deg, #22c55e, #3b82f6);
+    --badge-sale: linear-gradient(90deg, #f472b6, #60a5fa);
+  }
+
+  body {
+    background: var(--bg-app);
+    color: #111827;
+  }
+}
+
+/* 🧩 Components layer: reusable classes */
+@layer components {
+  .bg-app {
+    background: var(--bg-app);
+  }
+
+  .bg-hero {
+    background: var(--bg-hero);
+  }
+
+  .bg-section {
+    background: var(--bg-section);
+  }
+
+  .bg-btn-primary {
+    background: var(--btn-primary);
+  }
+
+  .bg-badge-sale {
+    background: var(--badge-sale);
+  }
+}

@@ -9,20 +9,23 @@ const Header = () => {
   return (
     <>
       {sidebarOpen && (
-          <div
-            className="fixed inset-0 bg-black/30 z-50 transition-all duration-300"
-            onClick={() => setSidebarOpen(false)}
-          />
-        )}
+        <div
+          className="fixed inset-0 bg-black/30 z-50 transition-all duration-300"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
       <div className="sticky top-0 z-50 bg-transparent backdrop-blur-sm px-6 py-2">
         <div className="flex items-center justify-between ">
           <div className="flex items-center space-x-6">
-            <button onClick={() => setSidebarOpen(true)} className="lg:hidden p-2 rounded-xl hover:scale-105">
+            <button
+              onClick={() => setSidebarOpen(true)}
+              className="lg:hidden p-2 rounded-xl hover:scale-105"
+            >
               <TextAlignStart className="text-text h-10 w-10  p-2 rounded-full border border-border" />
             </button>
-            <div className="h-10 ">
-              <p className=" text-accent">Bikaneri</p>
-              <p className="text-xs text-accent">Bandhej House</p>
+            <div>
+              <h1 className="text-xl font-bold text-accent">BIKANERI</h1>
+              <p className="text-xs text-text-muted">BANDHEJ HOUSE</p>
             </div>
           </div>
 

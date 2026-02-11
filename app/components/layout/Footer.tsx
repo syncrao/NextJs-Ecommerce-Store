@@ -5,13 +5,10 @@ export default function Footer() {
   return (
     <footer className="relative bg-section border-t border-border text-text-muted overflow-hidden">
 
-      {/* Shimmer Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-border/30 to-transparent animate-shimmer pointer-events-none" />
+      <div className="absolute inset-0  animate-shimmer pointer-events-none" />
 
       <div className="relative mx-auto max-w-7xl px-6 py-14">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
-
-          {/* Brand */}
           <div>
             <h2 className="text-2xl font-extrabold text-accent tracking-wide">
               Bikaneri Bandhej House
@@ -23,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Shop */}
+
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-text">
               Shop
@@ -43,7 +40,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Support */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-text">
               Support

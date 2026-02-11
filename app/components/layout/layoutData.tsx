@@ -1,17 +1,20 @@
-import { Home, Settings } from "lucide-react";
+import { Home, Settings, Shirt, ShoppingBag } from "lucide-react";
 
 export const menuItems = [
-    {
-        icon: Home,
-        label: "Overview",
-        id: "overview",
-        grandient: "from-purple-500 to-pink-500"
-    },
-    
-    {
-        icon: Settings,
-        label: "Settings",
-        id: "settings",
-        grandient: "from-gray-500 to-gray-500"
-    },
-]
+  {
+    icon: Home,
+    label: "Overview",
+    id: "overview",
+  },
+  {
+    icon: ShoppingBag,
+    label: "Products",
+    id: "products",
+  },
+
+  {
+    icon: Settings,
+    label: "Settings",
+    id: "settings",
+  },
+];

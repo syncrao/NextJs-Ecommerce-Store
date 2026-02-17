@@ -1,4 +1,7 @@
 const URL = "http://localhost:3000";
+import fs from "fs";
+import FormData from "form-data";
+import fetch from "node-fetch";
 
 async function get(route) {
   const response = await fetch(`${URL}/${route}`, {

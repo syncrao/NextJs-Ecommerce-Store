@@ -21,7 +21,7 @@ interface ProductType {
 }
 
 export default function ProductEditClient() {
-  const params = useParams(); // Next.js hook for dynamic route params
+  const params = useParams(); 
   const [product, setProduct] = useState<ProductType | null>(null);
   const [loading, setLoading] = useState(true);
 

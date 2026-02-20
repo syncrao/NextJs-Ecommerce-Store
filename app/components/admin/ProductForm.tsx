@@ -12,6 +12,7 @@ interface ProductType {
   _id?: string;
   name: string;
   description?: string;
+  mrp?: number;
   price: number;
   category?: string;
   images: ImageType[];
@@ -25,6 +26,7 @@ export default function ProductForm({ initialData }: Props) {
   const [product, setProduct] = useState<ProductType>({
     name: "",
     description: "",
+    mrp: 0,
     price: 0,
     category: "",
     images: [],
@@ -117,6 +119,15 @@ export default function ProductForm({ initialData }: Props) {
         name="description"
         placeholder="Description"
         value={product.description}
+        onChange={handleChange}
+        className="w-full border p-2 rounded"
+      />
+
+      <input
+        name="mrp"
+        type="number"
+        placeholder="MRP"
+        value={product.mrp}
         onChange={handleChange}
         className="w-full border p-2 rounded"
       />

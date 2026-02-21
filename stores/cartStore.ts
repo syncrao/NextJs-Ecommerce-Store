@@ -4,10 +4,13 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 type CartItem = {
-  id: string;
+  productId: string;
+  inventoryId: string;
   name: string;
   price: number;
   image?: string;
+  color: string;
+  size: string;
   qty: number;
 };
 
@@ -15,9 +18,9 @@ type CartState = {
   cart: CartItem[];
 
   addToCart: (item: Omit<CartItem, "qty">) => void;
-  removeFromCart: (id: string) => void;
-  increaseQty: (id: string) => void;
-  decreaseQty: (id: string) => void;
+  removeFromCart: (inventoryId: string) => void;
+  increaseQty: (inventoryId: string) => void;
+  decreaseQty: (inventoryId: string) => void;
   clearCart: () => void;
   totalPrice: () => number;
 };
@@ -29,12 +32,16 @@ export const useCartStore = create<CartState>()(
 
       addToCart: (item) =>
         set((state) => {
-          const exist = state.cart.find((p) => p.id === item.id);
+          const exist = state.cart.find(
+            (p) => p.inventoryId === item.inventoryId
+          );
 
           if (exist) {
             return {
               cart: state.cart.map((p) =>
-                p.id === item.id ? { ...p, qty: p.qty + 1 } : p,
+                p.inventoryId === item.inventoryId
+                  ? { ...p, qty: p.qty + 1 }
+                  : p
               ),
             };
           }
@@ -42,23 +49,29 @@ export const useCartStore = create<CartState>()(
           return { cart: [...state.cart, { ...item, qty: 1 }] };
         }),
 
-      removeFromCart: (id) =>
+      removeFromCart: (inventoryId) =>
         set((state) => ({
-          cart: state.cart.filter((item) => item.id !== id),
-        })),
-
-      increaseQty: (id) =>
-        set((state) => ({
-          cart: state.cart.map((item) =>
-            item.id === id ? { ...item, qty: item.qty + 1 } : item,
+          cart: state.cart.filter(
+            (item) => item.inventoryId !== inventoryId
           ),
         })),
 
-      decreaseQty: (id) =>
+      increaseQty: (inventoryId) =>
+        set((state) => ({
+          cart: state.cart.map((item) =>
+            item.inventoryId === inventoryId
+              ? { ...item, qty: item.qty + 1 }
+              : item
+          ),
+        })),
+
+      decreaseQty: (inventoryId) =>
         set((state) => ({
           cart: state.cart
             .map((item) =>
-              item.id === id ? { ...item, qty: item.qty - 1 } : item,
+              item.inventoryId === inventoryId
+                ? { ...item, qty: item.qty - 1 }
+                : item
             )
             .filter((item) => item.qty > 0),
         })),
@@ -66,8 +79,11 @@ export const useCartStore = create<CartState>()(
       clearCart: () => set({ cart: [] }),
 
       totalPrice: () =>
-        get().cart.reduce((total, item) => total + item.price * item.qty, 0),
+        get().cart.reduce(
+          (total, item) => total + item.price * item.qty,
+          0
+        ),
     }),
-    { name: "cart-storage" },
-  ),
+    { name: "cart-storage" }
+  )
 );

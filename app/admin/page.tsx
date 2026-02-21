@@ -9,6 +9,9 @@ const Admin = () => {
       <Link href="/admin/products">
         <button className="btn btn-primary">Manage Products</button>
       </Link>
+      <Link href="/admin/inventory">
+        <button className="btn btn-secondary ml-4">Manage Inventory</button>
+      </Link>
     </div> 
 
   )

@@ -17,7 +17,7 @@ export async function POST(req: Request) {
 
     const body: any = await req.json();
 
-    const product = await Product.create(body); // ✅ FIXED await
+    const product = await Product.create(body); 
 
     return NextResponse.json(product, { status: 201 });
 

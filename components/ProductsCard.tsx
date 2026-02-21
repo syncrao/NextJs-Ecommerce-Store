@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { fetcher } from "../lib/fetcher";
+import { fetcher } from "@/app/lib/fetcher";
 import Link from "next/link";
 
 interface Product {

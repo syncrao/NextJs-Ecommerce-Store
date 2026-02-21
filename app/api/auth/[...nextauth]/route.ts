@@ -5,7 +5,7 @@ import clientPromise from "../../../lib/mongodb";
 
 const adminEmails = process.env.ADMIN_EMAILS?.split(",") || [];
 
-// ✅ EXPORT THIS
+
 export const authOptions = {
   adapter: MongoDBAdapter(clientPromise),
 
@@ -17,7 +17,7 @@ export const authOptions = {
   ],
 
   callbacks: {
-    async session({ session }) {
+    async session({ session }:any) {
       if (session.user?.email) {
         session.user.isAdmin = adminEmails.includes(session.user.email);
       }

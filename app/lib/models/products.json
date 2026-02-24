@@ -1,0 +1,385 @@
+[
+    {
+        "id": 19,
+        "name": "Beige & Red Printed Silk Dupatta",
+        "description": "Beige & Red Printed Silk Dupatta 2.2mtr",
+        "price": "799.00",
+        "mrp": "649.00",
+        "category": "Dupatta",
+        "fabric": "Silk",
+        "images": [
+            {
+                "id": 38,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759289024/awjeo5xywpyzwzjzoxl0.webp",
+                "is_main": true
+            },
+            {
+                "id": 39,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759289026/c9wqfszml1um1ts9in3i.webp",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Bandhini Silk Dupatta",
+        "description": "Bandhini Silk Dupatta Red 2.2mtr",
+        "price": "499.00",
+        "mrp": "249.00",
+        "category": "Dupatta",
+        "fabric": "Silk",
+        "images": [
+            {
+                "id": 37,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759288878/ug0qrqkxign19scanscz.webp",
+                "is_main": true
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Black Bandhini Silk Dupatta",
+        "description": "Black Bandhini Silk Dupatta 2.2mtr",
+        "price": "399.00",
+        "mrp": "299.00",
+        "category": "Dupatta",
+        "fabric": "Silk",
+        "images": [
+            {
+                "id": 34,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759288716/shzcu5agq8meva0awhnu.webp",
+                "is_main": true
+            },
+            {
+                "id": 35,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759288717/muz6tsnnwwdepbzx7jau.webp",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Bandhini Silk Dupatta",
+        "description": "Bandhini Silk Dupatta Pink 2.2mtr",
+        "price": "399.00",
+        "mrp": "199.00",
+        "category": "Dupatta",
+        "fabric": "Silk",
+        "images": [
+            {
+                "id": 32,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759288566/kdw1evlngye8rwasc2jj.webp",
+                "is_main": true
+            },
+            {
+                "id": 33,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759288567/rf22nqfjasjdguzbbx8l.webp",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Kalamkari Printed Silk Semi-Stitched Lehenga Choli In Purple color",
+        "description": "The Semi-stitched Lehenga Waist and Hips are customizable Length: 41\r\nLehenga Waist: Supported Up To 42\r\nDo note: Accessories shown in the image are for presentation purposes only.",
+        "price": "9999.00",
+        "mrp": "12999.00",
+        "category": "Poshak",
+        "fabric": "Georgette",
+        "images": [
+            {
+                "id": 30,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287546/scwo6sicpzuhrdyueyqi.webp",
+                "is_main": true
+            },
+            {
+                "id": 31,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287547/ck7vaxvkpfflvkwhjjag.webp",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Bridal Rajputi Poshak In Green color",
+        "description": "The Semi-stitched Lehenga Waist and Hips are Customizable from 28 to 40 inches and from 32 to 44 inches respectively and Lehenga Length is 42 inches\r\nDo note: Accessories shown in the image are for presentation purposes only.",
+        "price": "10999.00",
+        "mrp": "12999.00",
+        "category": "Poshak",
+        "fabric": "Georgette",
+        "images": [
+            {
+                "id": 28,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287297/iacxpjm64wsnia9fsyji.webp",
+                "is_main": true
+            },
+            {
+                "id": 29,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287298/mlwiobzmipeku1tibrdn.webp",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Bridal Rajputi Poshak In Green color",
+        "description": "Bridal Rajputi Poshak In Green color",
+        "price": "10999.00",
+        "mrp": "12999.00",
+        "category": "Poshak",
+        "fabric": "Georgette",
+        "images": [
+            {
+                "id": 26,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287157/ov5lvdv36xmislnzpbnc.webp",
+                "is_main": true
+            },
+            {
+                "id": 27,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287158/ovube5xlx10u3xa50fuj.webp",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Rajputi Poshak In Purple color",
+        "description": "The Semi-stitched Lehenga Waist and Hips are Customizable from 28 to 40 inches and from 32 to 44 inches respectively and Lehenga Length is 42 inches\r\nDo note: Accessories shown in the image are for presentation purposes only.(Slight variation in actual color vs. image is possible",
+        "price": "799.00",
+        "mrp": "999.00",
+        "category": "Poshak",
+        "fabric": "Georgette",
+        "images": [
+            {
+                "id": 24,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287015/nc8zxluicuf0pj6hkaod.webp",
+                "is_main": true
+            },
+            {
+                "id": 25,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759287016/mls46ctdw8pyuhws98st.webp",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Off White Straight Short Kurta",
+        "description": "Off White Straight Short Kurta",
+        "price": "999.00",
+        "mrp": "1099.00",
+        "category": "Suit",
+        "fabric": "Cotton",
+        "images": [
+            {
+                "id": 22,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759049371/iwrxdpoaz6laer3bapgx.jpg",
+                "is_main": true
+            },
+            {
+                "id": 23,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759049373/rvwvcnsjp4uirxpgccts.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Mud Brown Cotton Printed Anarkali Suit Set",
+        "description": "Embrace timeless style with this off-white Anarkali suit set, thoughtfully designed in airy, breathable cotton that combines heritage elegance with a fresh, modern vibe.",
+        "price": "3434.00",
+        "mrp": "4232.00",
+        "category": "Suit",
+        "fabric": "Cotton",
+        "images": [
+            {
+                "id": 20,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759047906/feqlnl1bgpf4zqvm0mrt.jpg",
+                "is_main": true
+            },
+            {
+                "id": 21,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1759047908/gfhps51sjyejwdhcr1bc.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Fuschia & Lime Green Cotton Blend Lehenga Set",
+        "description": "Lehenga exude sophistication. Complement the look with oxidized earrings and Mojaris, blending traditional embroidery with contemporary details.",
+        "price": "1999.00",
+        "mrp": "2999.00",
+        "category": "Lehenga",
+        "fabric": "Georgette",
+        "images": [
+            {
+                "id": 18,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758200917/rxjyfat5dztikjza7gk2.jpg",
+                "is_main": true
+            },
+            {
+                "id": 19,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758200918/h5vm6rapgmk6bi3k8f2x.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Turquoise Art Silk Straight Kurta Lehenga Suit Set",
+        "description": "The ensemble is elegantly completed with a solid-colored dupatta featuring a meticulously designed border.",
+        "price": "3099.00",
+        "mrp": "3999.00",
+        "category": "Lehenga",
+        "fabric": "Georgette",
+        "images": [
+            {
+                "id": 16,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758200451/cnftb3ulav1evriukj5g.jpg",
+                "is_main": true
+            },
+            {
+                "id": 17,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758200452/craqc5arculwkjt5bdbj.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Wine Viscose Lehenga Set",
+        "description": "Simply a wedding guest, our range includes something for everyone. Feel your confident, truest self this wedding season!",
+        "price": "3999.00",
+        "mrp": "4999.00",
+        "category": "Lehenga",
+        "fabric": "Velvet",
+        "images": [
+            {
+                "id": 14,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758200232/w9r74yznhvunpmd04fsq.jpg",
+                "is_main": true
+            },
+            {
+                "id": 15,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758200233/s5mbyyvvx0qpkmotqbxf.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Coral Pink Cotton Blend Lehenga Set",
+        "description": "Coral Pink Cotton Blend Lehenga Set Pink",
+        "price": "2599.00",
+        "mrp": "3099.00",
+        "category": "Lehenga",
+        "fabric": "Georgette",
+        "images": [
+            {
+                "id": 12,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758199996/sthrvdzvpw4nfkygbwlm.jpg",
+                "is_main": true
+            },
+            {
+                "id": 13,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758199997/bdnqkmbyqa6ptn6zyarv.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Pista Green Modal Blend Straight Suit Set",
+        "description": "Pista Green Modal Blend Straight Suit Set White",
+        "price": "1099.00",
+        "mrp": "2000.00",
+        "category": "Suit",
+        "fabric": "Silk",
+        "images": [
+            {
+                "id": 10,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758195301/al5jrknozrhruemudblt.jpg",
+                "is_main": true
+            },
+            {
+                "id": 11,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758195302/lzlhcgkd762srvk6hbqf.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Wine Viscose Rayon Straight Solid Suit Set",
+        "description": "Wine Viscose Rayon Straight Solid Suit Set",
+        "price": "1999.00",
+        "mrp": "2999.00",
+        "category": "Suit",
+        "fabric": "Cotton",
+        "images": [
+            {
+                "id": 8,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758194828/flhbvuh7syuvityjeyfc.jpg",
+                "is_main": false
+            },
+            {
+                "id": 9,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1758194829/kpp3ztmezxsdqquo6pfn.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Floral Printed V Neck Anarkali Kurta With Trousers & Dupatta",
+        "description": "Blue , white and coral printed kurta with trousers and dupatta",
+        "price": "1299.00",
+        "mrp": "1799.00",
+        "category": "Suit",
+        "fabric": "Cotton",
+        "images": [
+            {
+                "id": 4,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1757657104/cfhf80bbjt6jdfegl6lz.jpg",
+                "is_main": true
+            },
+            {
+                "id": 5,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1757657105/zvvxb0df417farqk4yni.jpg",
+                "is_main": false
+            },
+            {
+                "id": 6,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1757677546/yccu92hdqeqivz64sanz.jpg",
+                "is_main": false
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Floral Embroidered Thread Work A-Line Kurta With Trousers & Dupatta",
+        "description": "White, pink & blue embroidered Kurta with Trousers with dupatta",
+        "price": "1499.00",
+        "mrp": "1899.00",
+        "category": "Suit",
+        "fabric": "Cotton",
+        "images": [
+            {
+                "id": 1,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1757600484/vbter4lzjejbb8136i1i.webp",
+                "is_main": true
+            },
+            {
+                "id": 2,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1757600486/yyamaxbvept9nlsdauzv.webp",
+                "is_main": false
+            },
+            {
+                "id": 3,
+                "image": "http://res.cloudinary.com/dhtj6kwtx/image/upload/v1757600487/z3wsh5zn2eomw9gbqz7p.webp",
+                "is_main": false
+            }
+        ]
+    }
+]

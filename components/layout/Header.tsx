@@ -21,7 +21,7 @@ const Header = () => {
           onClick={() => setSidebarOpen(false)}
         />
       )}
-      <div className="sticky top-0 z-50 bg-transparent backdrop-blur-sm px-6 py-2">
+      <div className="sticky top-0 z-50 bg-transparent backdrop-blur-sm px-4 lg:px-8 py-2">
         <div className="flex items-center justify-between ">
           <div className="flex items-center space-x-6">
             <button

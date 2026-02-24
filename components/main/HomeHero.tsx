@@ -30,7 +30,7 @@ export default function HomeHero() {
   }, []);
 
   return (
-    <Link href="/products/all" className="block w-full">
+    <Link href="/products" className="block w-full">
       <div className="relative w-full overflow-hidden aspect-9/9 sm:aspect-28/9">
         {desktopImages.map((img, index) => (
           <div

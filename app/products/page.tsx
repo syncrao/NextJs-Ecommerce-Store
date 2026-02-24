@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { fetcher } from "../lib/fetcher";
-import Image from "next/image";
-import Link from "next/link";
+import ProductCategory from "@/components/main/ProductCategory";
 
 type Products = {
   _id: string;
@@ -26,24 +25,8 @@ const Products = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col items-center gap-8">
-      <h1>Products</h1>
-
-      {products.map((product) => (
-        <div key={product._id}>
-          <h1>{product.name}</h1>
-          <Image
-            src={product.images[0]?.url}
-            alt={product.name}
-            className="group-hover:scale-105 transition-transform duration-300"
-            width={300}
-            height={300}
-          />
-          <Link href={`/products/${product._id}`}>
-          Details
-          </Link>
-        </div>
-      ))}
+    <div className="">
+      <ProductCategory title="" items={products} category="best-sellers" loading={products.length === 0} />
     </div>
   );
 };

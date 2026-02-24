@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="">
     <HomeHero />
-    <ProductCategory title="Best Sellers" items={products} category="best-sellers" loading={products.length === 0} />
+    <ProductCategory title="Trending Suits" items={products} category="best-sellers" loading={products.length === 0} />
     </div>
   );
 }

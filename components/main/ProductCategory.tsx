@@ -49,22 +49,19 @@ export default function ProductCategory({
     Math.round(((mrp - price) / mrp) * 100);
 
   return (
-    <div className="px-4 mb-10 lg:mb-20 lg:px-8 bg-section">
-      
-      {/* Header */}
-      <div className="flex justify-between items-center mb-6">
+    <div className="px-4 my-6 lg:px-8">
+      <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-semibold text-main">{title}</h2>
 
         <Link
-          href={`/products/${category}`}
+          href={`/products`}
           className="text-accent font-semibold hover:text-accent-hover transition"
         >
           See All
         </Link>
       </div>
 
-      {/* Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6">
         {loading
           ? Array.from({ length: 4 }).map((_, i) => (
               <SkeletonCard key={i} />
@@ -73,16 +70,17 @@ export default function ProductCategory({
               <Link
                 href={`/products/${item._id}`}
                 key={item._id}
-                className="rounded-lg transition relative group bg-surface p-3 hover:shadow-md"
+                className="rounded-lg transition relative group"
               >
+                
                 {/* Discount */}
-                <span className="absolute top-3 left-3 bg-accent text-inverse text-xs font-semibold px-2 py-1 rounded">
-                  {getDiscount(item.mrp, item.price)}% OFF 
+                <span className="absolute z-10 m-2 p-2 bg-accent text-white text-xs font-semibold px-2 py-1 rounded">
+                  {getDiscount(item.mrp, item.price) ? getDiscount(item.mrp, item.price) : 0}% OFF 
                 </span>
 
                 {/* Image */}
                 
-                <div className="overflow-hidden rounded-lg relative w-full h-60">
+                <div className="relative w-full h-80 md:h-96">
                   <Image
                     src={item.images[0]?.url}
                     alt={item.name}
